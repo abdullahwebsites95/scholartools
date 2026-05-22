@@ -85,6 +85,7 @@ export default function GradeCalculator() {
             <p>The formula used is: Required Grade = (Desired Grade − Current Grade × Current Weight) ÷ Final Exam Weight.</p>
             <p>For example: If your current grade is 72%, you want an 80%, and the final exam is worth 40% of your grade, then your pre-final work counts for 60%. The calculation would be: (80 − 72 × 0.60) ÷ 0.40 = (80 − 43.2) ÷ 0.40 = 92%.</p>
             <p>This tool is especially useful at the end of semester when students want to plan their final exam preparation strategically.</p>
+            <p>Check your overall academic standing with our <a href="/gpa-calculator">GPA Calculator</a>, or use our <a href="/percentage-calculator">Percentage Calculator</a> to convert your exam scores instantly.</p>
           </div>
         </div>
       </div>

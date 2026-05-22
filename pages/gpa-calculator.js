@@ -120,6 +120,7 @@ export default function GPACalculator() {
             <p>GPA (Grade Point Average) is calculated by multiplying each subject's grade points by its credit hours, adding all these together, then dividing by the total number of credit hours.</p>
             <p>For example: If you score an A (4.0) in a 3-credit subject and a B (3.0) in a 2-credit subject, your GPA = ((4.0×3) + (3.0×2)) / (3+2) = 18/5 = 3.6.</p>
             <p>This calculator works for the American 4.0 scale used in most universities globally, including Pakistan (CGPA), India, and the USA.</p>
+            <p>Use our <a href="/grade-calculator">Grade Needed Calculator</a> to find out what score you need on your final exam, or convert your CGPA using our <a href="/cgpa-to-percentage">CGPA to Percentage Converter</a>.</p>
           </div>
         </div>
       </div>

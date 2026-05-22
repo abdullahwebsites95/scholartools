@@ -136,6 +136,7 @@ export default function BMICalculator() {
             <p>BMI (Body Mass Index) is a measure of body fat based on height and weight. It is calculated by dividing your weight in kilograms by the square of your height in metres: BMI = kg/m².</p>
             <p>The standard BMI categories are: Underweight (below 18.5), Normal weight (18.5–24.9), Overweight (25–29.9), and Obese (30 and above). These ranges apply to most adults aged 18 to 65.</p>
             <p>BMI is a useful screening tool but it does not directly measure body fat. Athletes may have a high BMI due to muscle mass rather than fat. Always consult a healthcare professional for a complete health assessment.</p>
+            <p>Balance your health goals with your study schedule using our <a href="/study-hours-planner">Study Hours Planner</a>, or track your assignment deadlines with our <a href="/deadline-countdown">Deadline Countdown</a>.</p>
           </div>
         </div>
       </div>

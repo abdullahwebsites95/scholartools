@@ -91,6 +91,7 @@ export default function WordCounter() {
             <p>Simply paste or type your text into the box above. All statistics update in real time as you type — no need to click any button.</p>
             <p>The word counter is especially useful for students checking essay word limits set by teachers. Reading time is calculated at an average of 238 words per minute, and speaking time at 130 words per minute — useful for presentations and speeches.</p>
             <p>Pages are estimated at 250 words per page, which is the standard double-spaced academic format used in most universities.</p>
+            <p>Looking for more writing tools? Try our <a href="/reading-time">Reading Time Estimator</a> to find out how long your text takes to read, or use our <a href="/text-case-converter">Text Case Converter</a> to format your text correctly.</p>
           </div>
         </div>
       </div>

@@ -123,6 +123,7 @@ export default function CitationGenerator() {
             <p>APA (American Psychological Association) format is used mainly in social sciences, psychology, education, and nursing. MLA (Modern Language Association) is used in humanities subjects like literature, history, and arts.</p>
             <p>If your teacher has not specified a format, check your course syllabus or ask. Using the wrong citation format can cost marks even if the content is correct.</p>
             <p>This tool generates citations based on the information you provide. Always double-check your citation against the official APA or MLA style guide before submitting.</p>
+            <p>After generating your citations, use our <a href="/word-counter">Word Counter</a> to check your essay meets the required length, or our <a href="/text-case-converter">Text Case Converter</a> to format your headings correctly.</p>
           </div>
         </div>
       </div>

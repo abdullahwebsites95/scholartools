@@ -127,6 +127,7 @@ export default function PomodoroTimer() {
             <h2>What is the Pomodoro Technique?</h2>
             <p>The Pomodoro Technique was developed by Francesco Cirillo in the late 1980s. It breaks your work into 25-minute focused sessions (called "Pomodoros") separated by short 5-minute breaks. After completing four sessions, you take a longer 15-minute break.</p>
             <p>Studies show this method significantly improves concentration and reduces the impact of interruptions on focus. It is one of the most popular study methods among university students worldwide.</p>
+            <p>Pair the Pomodoro Technique with our <a href="/study-hours-planner">Study Hours Planner</a> to allocate time across subjects, and use our <a href="/deadline-countdown">Deadline Countdown</a> to track your assignment due dates.</p>
           </div>
         </div>
       </div>

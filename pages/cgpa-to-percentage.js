@@ -44,7 +44,7 @@ export default function CGPAConverter() {
     <Layout>
       <Head>
         <title>CGPA to Percentage Calculator — Free Converter | ScholarTools</title>
-        <meta name="description" content="Convert CGPA to percentage instantly. Supports Pakistani, Indian and international university formulas. Free CGPA to percentage calculator for students." />
+        <meta name="description" content="Free CGPA to percentage converter. Supports Pakistani, Indian and international university formulas. Instant results, no signup needed." />
         <link rel="canonical" href="https://scholartools.co/cgpa-to-percentage" />
       </Head>
       <div className="tool-page">
@@ -120,6 +120,7 @@ export default function CGPAConverter() {
             <p>Different universities use different formulas to convert CGPA to percentage. The most common formula used by Pakistani and Indian universities is simply multiplying CGPA by 10. So a CGPA of 3.5 out of 4.0 would be 35% — but this is only if your CGPA is out of 4.</p>
             <p>If your CGPA is out of 10 (common in Pakistan and India), most universities use CGPA × 10. So 7.5 CGPA = 75%. Always check your university's official conversion policy before using this for job applications or further admissions.</p>
             <p>This conversion is commonly needed for job applications, further university admissions, government forms, and scholarship applications that require percentage instead of CGPA.</p>
+            <p>Calculate your full semester GPA using our <a href="/gpa-calculator">GPA Calculator</a>, or use our <a href="/percentage-calculator">Percentage Calculator</a> to work out your exam scores and grade averages.</p>
           </div>
         </div>
       </div>

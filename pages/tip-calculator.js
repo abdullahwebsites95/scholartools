@@ -132,6 +132,7 @@ export default function TipCalculator() {
             <p>Tipping customs vary by country and situation. In the USA, 15–20% is standard for restaurant service. In Pakistan and most South Asian countries, tipping is appreciated but not always expected — 10–15% is considered generous for good service.</p>
             <p>For food delivery, 10–15% of the order value is a common tip range. For exceptional service you can always tip more. For poor service, tipping less or not at all is also acceptable in most cultures.</p>
             <p>When splitting a bill among friends, always calculate the tip on the full bill first, then divide the total equally. This is simpler and fairer than each person calculating their own tip separately.</p>
+            <p>For bigger financial decisions, use our <a href="/emi-calculator">Loan EMI Calculator</a> to plan student loan repayments, or our <a href="/percentage-calculator">Percentage Calculator</a> to work out discounts and savings.</p>
           </div>
         </div>
       </div>

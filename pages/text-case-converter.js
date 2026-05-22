@@ -92,6 +92,7 @@ export default function TextCaseConverter() {
             <p>Title Case is used for essay headings, report titles, and reference lists. Sentence case is standard for body paragraphs and most academic writing. UPPERCASE is often used for acronyms and emphasis in notes.</p>
             <p>For students learning programming or web development, camelCase and snake_case are the two most common formats for naming variables and functions in code.</p>
             <p>Use the "Use as new input" button to chain multiple conversions — for example, converting to lowercase first and then to Title Case for cleaner results.</p>
+            <p>After converting your text case, use our <a href="/word-counter">Word Counter</a> to check your essay length or our <a href="/citation-generator">Citation Generator</a> to format your references correctly.</p>
           </div>
         </div>
       </div>

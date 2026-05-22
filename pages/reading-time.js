@@ -78,6 +78,7 @@ export default function ReadingTime() {
             <p>Reading time is estimated based on your word count and a standard reading speed. The average adult reads silently at about 238 words per minute. Slow readers average around 150 wpm and fast readers around 350 wpm.</p>
             <p>Speaking time is calculated at 130 words per minute — the typical pace for a clear, comfortable public presentation. This is especially useful for students preparing presentations, speeches, or oral exams.</p>
             <p>Use the reading speed selector to match your personal pace for more accurate estimates.</p>
+            <p>Use our <a href="/word-counter">Word Counter</a> to check your essay length, or plan your study sessions with our <a href="/study-hours-planner">Study Hours Planner</a> before your next assignment deadline.</p>
           </div>
         </div>
       </div>

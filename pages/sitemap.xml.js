@@ -8,10 +8,18 @@ const pages = [
   { url: '/grade-calculator', priority: '0.9', freq: 'monthly' },
   { url: '/percentage-calculator', priority: '0.9', freq: 'monthly' },
   { url: '/citation-generator', priority: '0.9', freq: 'monthly' },
+  { url: '/bmi-calculator', priority: '0.9', freq: 'monthly' },
+  { url: '/cgpa-to-percentage', priority: '0.9', freq: 'monthly' },
+  { url: '/study-hours-planner', priority: '0.9', freq: 'monthly' },
+  { url: '/emi-calculator', priority: '0.8', freq: 'monthly' },
+  { url: '/tip-calculator', priority: '0.8', freq: 'monthly' },
   { url: '/deadline-countdown', priority: '0.8', freq: 'monthly' },
   { url: '/reading-time', priority: '0.8', freq: 'monthly' },
   { url: '/typing-speed', priority: '0.8', freq: 'monthly' },
   { url: '/text-case-converter', priority: '0.8', freq: 'monthly' },
+  { url: '/about', priority: '0.6', freq: 'yearly' },
+  { url: '/privacy-policy', priority: '0.5', freq: 'yearly' },
+  { url: '/terms', priority: '0.5', freq: 'yearly' },
 ]
 
 function generateSitemap() {

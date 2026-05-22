@@ -141,6 +141,7 @@ export default function EMICalculator() {
             <p>EMI (Equated Monthly Installment) is the fixed monthly payment you make to repay a loan. Each EMI contains two parts: the principal repayment and the interest charge. In early months, a larger portion goes toward interest. Over time, more goes toward the principal.</p>
             <p>The EMI formula is: EMI = P × r × (1+r)^n / ((1+r)^n − 1), where P is the principal loan amount, r is the monthly interest rate (annual rate ÷ 12 ÷ 100), and n is the number of monthly installments.</p>
             <p>Students commonly use this calculator for education loans, personal loans, and car loans to understand the true cost of borrowing before committing to a loan agreement.</p>
+            <p>Calculate tips and split dining bills with our <a href="/tip-calculator">Tip Calculator</a>, or use our <a href="/percentage-calculator">Percentage Calculator</a> to understand interest rates and financial percentages.</p>
           </div>
         </div>
       </div>

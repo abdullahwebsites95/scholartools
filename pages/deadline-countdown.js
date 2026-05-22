@@ -117,6 +117,7 @@ export default function DeadlineCountdown() {
             <h2>Never Miss an Assignment Deadline Again</h2>
             <p>Add all your assignments for the semester at the start of term and keep this page bookmarked. The countdown timers update automatically so you always know exactly how much time you have.</p>
             <p>Assignments are sorted by due date — the most urgent ones always appear at the top. Assignments due within 24 hours are highlighted in red, and those within 3 days in orange.</p>
+            <p>Use our <a href="/pomodoro-timer">Pomodoro Timer</a> to stay focused while working toward your deadlines, and our <a href="/study-hours-planner">Study Hours Planner</a> to distribute your revision time effectively.</p>
           </div>
         </div>
       </div>

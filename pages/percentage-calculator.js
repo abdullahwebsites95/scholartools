@@ -112,6 +112,7 @@ export default function PercentageCalculator() {
             <h2>How to Use the Percentage Calculator</h2>
             <p>This tool has three modes. Use "X% of Y" to find a percentage of a number (e.g. 20% of 500 = 100). Use "X is what % of Y" to find your exam percentage — just enter your marks and total marks. Use "% Change" to see how much something increased or decreased.</p>
             <p>The most common use for students is calculating exam scores: enter your marks obtained as X and total marks as Y to instantly see your percentage grade.</p>
+            <p>Calculate your full semester GPA using our <a href="/gpa-calculator">GPA Calculator</a>, or find out what score you need on your final exam with our <a href="/grade-calculator">Grade Needed Calculator</a>.</p>
           </div>
         </div>
       </div>

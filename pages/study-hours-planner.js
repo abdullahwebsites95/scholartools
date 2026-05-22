@@ -144,6 +144,7 @@ export default function StudyHoursPlanner() {
             <p>Enter your exam date and how many hours per day you can realistically study. Then add each subject, select its difficulty level, and give it a priority score from 1 to 5. Higher priority and harder subjects automatically get more study time allocated.</p>
             <p>The planner distributes your total available hours proportionally based on difficulty and priority. A subject marked Hard with priority 5 will get significantly more time than an Easy subject with priority 1.</p>
             <p>Use this at the start of each exam period to plan your revision strategically rather than studying randomly and running out of time before covering all subjects.</p>
+            <p>Track your deadlines alongside your study plan using our <a href="/deadline-countdown">Deadline Countdown</a>, stay focused with our <a href="/pomodoro-timer">Pomodoro Timer</a>, and check your academic standing with our <a href="/gpa-calculator">GPA Calculator</a>.</p>
           </div>
         </div>
       </div>

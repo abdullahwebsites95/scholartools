@@ -154,6 +154,7 @@ export default function TypingSpeed() {
             <p>The average person types at 40 WPM (words per minute). Most students type between 40–60 WPM. Anything above 60 WPM is considered good, and above 80 WPM is excellent.</p>
             <p>Improving your typing speed from 40 to 70 WPM can save you 30–45 minutes every day when writing essays, emails, and notes. That adds up to several hours per week.</p>
             <p>The best way to improve is consistent daily practice for 10–15 minutes. Share your score with friends and make it a challenge.</p>
+            <p>Improve your academic productivity further with our <a href="/word-counter">Word Counter</a> to track essay progress and our <a href="/pomodoro-timer">Pomodoro Timer</a> to maintain focus during study sessions.</p>
           </div>
         </div>
       </div>
