@@ -15,6 +15,11 @@ export default function Footer() {
         <Link href="/typing-speed">Typing Speed</Link>
         <Link href="/deadline-countdown">Deadline Countdown</Link>
       </div>
+      <div className="footer-legal">
+        <Link href="/about">About</Link>
+        <Link href="/privacy-policy">Privacy Policy</Link>
+        <Link href="/terms">Terms of Service</Link>
+      </div>
       <div className="footer-copy">© {new Date().getFullYear()} ScholarTools.co — Free student tools forever.</div>
     </footer>
   )

@@ -13,6 +13,7 @@ export default function Header() {
           <Link href="/pomodoro-timer" onClick={() => setOpen(false)}>Pomodoro</Link>
           <Link href="/citation-generator" onClick={() => setOpen(false)}>Citations</Link>
           <Link href="/" onClick={() => setOpen(false)}>All Tools</Link>
+          <Link href="/about" onClick={() => setOpen(false)}>About</Link>
         </nav>
         <button className="hamburger" onClick={() => setOpen(o => !o)} aria-label="Menu">☰</button>
       </div>

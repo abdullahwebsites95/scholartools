@@ -376,6 +376,9 @@ tr:last-child td { border-bottom: none; }
 .footer-links { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin-bottom: 24px; }
 .footer-links a { color: rgba(255,255,255,0.6); font-size: 13px; transition: color 0.15s; }
 .footer-links a:hover { color: white; text-decoration: none; }
+.footer-legal { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin-top: 12px; padding-top: 16px; border-top: 1px solid rgba(255,255,255,0.08); margin-bottom: 20px; }
+.footer-legal a { color: rgba(255,255,255,0.45); font-size: 13px; transition: color 0.15s; }
+.footer-legal a:hover { color: white; text-decoration: none; }
 .footer-copy { font-size: 12px; color: rgba(255,255,255,0.35); }
 
 /* ─── UTILS ─── */
