@@ -24,8 +24,10 @@ export default function BMICalculator() {
     else if (bmi < 25) { category = 'Normal Weight'; color = '#059669'; advice = 'You are within the healthy weight range. Maintain your current lifestyle with regular exercise and balanced diet.' }
     else if (bmi < 30) { category = 'Overweight'; color = '#D97706'; advice = 'You are slightly above the healthy range. Regular exercise and mindful eating can help you reach a healthier weight.' }
     else { category = 'Obese'; color = '#DC2626'; advice = 'Your BMI indicates obesity. It is recommended to consult a healthcare provider for a personalised weight management plan.' }
-    const idealMin = (18.5 * h * h).toFixed(1)
-    const idealMax = (24.9 * h * h).toFixed(1)
+    const idealMinKg = 18.5 * h * h
+    const idealMaxKg = 24.9 * h * h
+    const idealMin = unit === 'metric' ? idealMinKg.toFixed(1) : (idealMinKg * 2.20462).toFixed(1)
+    const idealMax = unit === 'metric' ? idealMaxKg.toFixed(1) : (idealMaxKg * 2.20462).toFixed(1)
     setResult({ bmi: bmi.toFixed(1), category, color, advice, idealMin, idealMax })
   }
 
