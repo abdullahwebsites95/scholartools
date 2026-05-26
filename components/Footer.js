@@ -12,13 +12,11 @@ export default function Footer() {
         <Link href="/citation-generator">Citation Generator</Link>
         <Link href="/grade-calculator">Grade Calculator</Link>
         <Link href="/percentage-calculator">Percentage Calc</Link>
+        <Link href="/bmi-calculator">BMI Calculator</Link>
+        <Link href="/student-rent-calculator">Student Rent Calculator</Link>
+        <Link href="/emi-calculator">EMI Calculator</Link>
         <Link href="/typing-speed">Typing Speed</Link>
         <Link href="/deadline-countdown">Deadline Countdown</Link>
-      </div>
-      <div className="footer-legal">
-        <Link href="/about">About</Link>
-        <Link href="/privacy-policy">Privacy Policy</Link>
-        <Link href="/terms">Terms of Service</Link>
       </div>
       <div className="footer-copy">© {new Date().getFullYear()} ScholarTools.co — Free student tools forever.</div>
     </footer>

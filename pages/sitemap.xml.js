@@ -17,6 +17,7 @@ const pages = [
   { url: '/reading-time', priority: '0.8', freq: 'monthly' },
   { url: '/typing-speed', priority: '0.8', freq: 'monthly' },
   { url: '/text-case-converter', priority: '0.8', freq: 'monthly' },
+  { url: '/student-rent-calculator', priority: '0.9', freq: 'monthly' },
   { url: '/about', priority: '0.6', freq: 'yearly' },
   { url: '/privacy-policy', priority: '0.5', freq: 'yearly' },
   { url: '/terms', priority: '0.5', freq: 'yearly' },

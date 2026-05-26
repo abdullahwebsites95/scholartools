@@ -10,6 +10,7 @@ const tools = [
       { href: '/word-counter', icon: '📝', name: 'Word Counter', desc: 'Count words, characters, sentences, reading time and pages instantly.' },
       { href: '/reading-time', icon: '📖', name: 'Reading Time Estimator', desc: 'Paste any text and find out exactly how long it takes to read aloud or silently.' },
       { href: '/text-case-converter', icon: '🔤', name: 'Text Case Converter', desc: 'Convert text to UPPERCASE, lowercase, Title Case, camelCase and more.' },
+      { href: '/citation-generator', icon: '📚', name: 'Citation Generator', desc: 'Generate perfect APA and MLA citations for books, websites and journals. Free.' },
     ]
   },
   {
@@ -29,7 +30,7 @@ const tools = [
       { href: '/gpa-calculator', icon: '🎓', name: 'GPA Calculator', desc: 'Calculate your GPA on the 4.0 scale or CGPA with subject credit hours.' },
       { href: '/grade-calculator', icon: '📊', name: 'Grade Needed Calculator', desc: 'Find out exactly what score you need on your final exam to pass the course.' },
       { href: '/percentage-calculator', icon: '🔢', name: 'Percentage Calculator', desc: 'Calculate percentages, percentage change, and what percent X is of Y.' },
-      { href: '/cgpa-to-percentage', icon: '🔄', name: 'CGPA to Percentage', desc: 'Convert CGPA to percentage using your university formula. Supports all major universities.' },
+      { href: '/cgpa-to-percentage', icon: '🔄', name: 'CGPA to Percentage', desc: 'Convert your CGPA to percentage using your university formula instantly.' },
     ]
   },
   {
@@ -41,45 +42,54 @@ const tools = [
     ]
   },
   {
-    category: 'Finance',
+    category: 'Finance & Money',
     accent: '#0D9488',
     items: [
       { href: '/emi-calculator', icon: '💳', name: 'Loan EMI Calculator', desc: 'Calculate monthly loan installments, total interest, and full repayment schedule.' },
-      { href: '/citation-generator', icon: '📚', name: 'Citation Generator', desc: 'Generate perfect APA and MLA citations for books, websites and journals. Free.' },
+      { href: '/student-rent-calculator', icon: '🏠', name: 'Student Rent Calculator UK', desc: 'Find out if you can afford student rent in the UK. Halls vs private renting decision tool.' },
     ]
   },
 ]
 
 export default function Home() {
+  const totalTools = tools.reduce((sum, cat) => sum + cat.items.length, 0)
+
   return (
     <Layout>
       <Head>
-        <title>ScholarTools — Free Tools for Students</title>
-        <meta name="description" content="Free online tools for students: word counter, GPA calculator, BMI calculator, citation generator, Pomodoro timer, grade calculator and more. No signup needed." />
-        <meta property="og:title" content="ScholarTools — Free Tools for Students" />
-        <meta property="og:description" content="15+ free tools for students. Word counter, GPA calculator, Pomodoro timer, citation generator, BMI calculator and more." />
+        <title>ScholarTools — Free Online Tools for Students</title>
+        <meta name="description" content="Free online tools for students: word counter, GPA calculator, BMI calculator, citation generator, Pomodoro timer, student rent calculator and more. No signup needed." />
+        <meta property="og:title" content="ScholarTools — Free Online Tools for Students" />
+        <meta property="og:description" content="16+ free tools for students. Word counter, GPA calculator, Pomodoro timer, citation generator, BMI calculator, student rent calculator and more." />
         <link rel="canonical" href="https://scholartools.co" />
       </Head>
 
+      {/* Hero */}
       <div className="hero">
         <div className="container">
           <h1>Free Tools Built for <span>Students</span></h1>
-          <p>15 essential tools that help you study smarter, write better, and stay on top of deadlines. All free, forever.</p>
+          <p>{totalTools} essential tools that help you study smarter, write better, and stay on top of deadlines. All free, forever.</p>
           <div className="hero-stats">
-            <div className="hero-stat"><div className="hero-stat-val">15+</div><div className="hero-stat-lbl">Free tools</div></div>
+            <div className="hero-stat"><div className="hero-stat-val">{totalTools}+</div><div className="hero-stat-lbl">Free tools</div></div>
             <div className="hero-stat"><div className="hero-stat-val">0</div><div className="hero-stat-lbl">Signup needed</div></div>
             <div className="hero-stat"><div className="hero-stat-val">100%</div><div className="hero-stat-lbl">Free forever</div></div>
           </div>
         </div>
       </div>
 
+      {/* Tools Grid */}
       <div className="tools-section">
         {tools.map(cat => (
           <div key={cat.category}>
             <div className="section-label">{cat.category}</div>
             <div className="tools-grid" style={{ marginBottom: 40 }}>
               {cat.items.map(tool => (
-                <Link key={tool.href} href={tool.href} className="tool-card" style={{ '--card-accent': cat.accent }}>
+                <Link
+                  key={tool.href}
+                  href={tool.href}
+                  className="tool-card"
+                  style={{ '--card-accent': cat.accent }}
+                >
                   <span className="tool-card-icon">{tool.icon}</span>
                   <div className="tool-card-name">{tool.name}</div>
                   <div className="tool-card-desc">{tool.desc}</div>

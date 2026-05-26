@@ -11,9 +11,8 @@ export default function Header() {
           <Link href="/word-counter" onClick={() => setOpen(false)}>Word Counter</Link>
           <Link href="/gpa-calculator" onClick={() => setOpen(false)}>GPA Calc</Link>
           <Link href="/pomodoro-timer" onClick={() => setOpen(false)}>Pomodoro</Link>
-          <Link href="/citation-generator" onClick={() => setOpen(false)}>Citations</Link>
+          <Link href="/student-rent-calculator" onClick={() => setOpen(false)}>Rent Calc</Link>
           <Link href="/" onClick={() => setOpen(false)}>All Tools</Link>
-          <Link href="/about" onClick={() => setOpen(false)}>About</Link>
         </nav>
         <button className="hamburger" onClick={() => setOpen(o => !o)} aria-label="Menu">☰</button>
       </div>
