@@ -31,6 +31,7 @@ const tools = [
       { href: '/grade-calculator', icon: '📊', name: 'Grade Needed Calculator', desc: 'Find out exactly what score you need on your final exam to pass the course.' },
       { href: '/percentage-calculator', icon: '🔢', name: 'Percentage Calculator', desc: 'Calculate percentages, percentage change, and what percent X is of Y.' },
       { href: '/cgpa-to-percentage', icon: '🔄', name: 'CGPA to Percentage', desc: 'Convert your CGPA to percentage using your university formula instantly.' },
+      { href: '/attendance-calculator', icon: '📋', name: 'Attendance Calculator', desc: 'Check your attendance percentage and find out exactly how many classes you can miss.' },
     ]
   },
   {
@@ -58,13 +59,12 @@ export default function Home() {
     <Layout>
       <Head>
         <title>ScholarTools — Free Online Tools for Students</title>
-        <meta name="description" content="Free online tools for students: word counter, GPA calculator, BMI calculator, citation generator, Pomodoro timer, student rent calculator and more. No signup needed." />
+        <meta name="description" content="Free online tools for students: word counter, GPA calculator, attendance calculator, BMI calculator, citation generator, Pomodoro timer and more. No signup needed." />
         <meta property="og:title" content="ScholarTools — Free Online Tools for Students" />
-        <meta property="og:description" content="16+ free tools for students. Word counter, GPA calculator, Pomodoro timer, citation generator, BMI calculator, student rent calculator and more." />
+        <meta property="og:description" content="17+ free tools for students. Word counter, GPA calculator, attendance calculator, Pomodoro timer, citation generator and more." />
         <link rel="canonical" href="https://scholartools.co" />
       </Head>
 
-      {/* Hero */}
       <div className="hero">
         <div className="container">
           <h1>Free Tools Built for <span>Students</span></h1>
@@ -77,7 +77,6 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Tools Grid */}
       <div className="tools-section">
         {tools.map(cat => (
           <div key={cat.category}>
