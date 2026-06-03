@@ -35,6 +35,13 @@ const tools = [
     ]
   },
   {
+    category: '🇵🇰 Pakistan University Admissions',
+    accent: '#16A34A',
+    items: [
+      { href: '/mdcat-calculator', icon: '🩺', name: 'MDCAT Aggregate Calculator', desc: 'Calculate your MBBS and BDS admission aggregate using the official PMDC formula.' },
+    ]
+  },
+  {
     category: 'Health & Everyday',
     accent: '#DC2626',
     items: [
@@ -59,9 +66,9 @@ export default function Home() {
     <Layout>
       <Head>
         <title>ScholarTools — Free Online Tools for Students</title>
-        <meta name="description" content="Free online tools for students: word counter, GPA calculator, attendance calculator, BMI calculator, citation generator, Pomodoro timer and more. No signup needed." />
+        <meta name="description" content="Free online tools for students: word counter, GPA calculator, MDCAT aggregate calculator, attendance calculator, BMI calculator, citation generator and more. No signup needed." />
         <meta property="og:title" content="ScholarTools — Free Online Tools for Students" />
-        <meta property="og:description" content="17+ free tools for students. Word counter, GPA calculator, attendance calculator, Pomodoro timer, citation generator and more." />
+        <meta property="og:description" content="18+ free tools for students. Word counter, GPA calculator, MDCAT calculator, attendance tracker, Pomodoro timer and more." />
         <link rel="canonical" href="https://scholartools.co" />
       </Head>
 
