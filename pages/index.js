@@ -40,6 +40,7 @@ const tools = [
     items: [
       { href: '/mdcat-calculator', icon: '🩺', name: 'MDCAT Aggregate Calculator', desc: 'Calculate your MBBS and BDS admission aggregate using the official PMDC formula.' },
       { href: '/ecat-calculator', icon: '⚙️', name: 'ECAT Aggregate Calculator', desc: 'Calculate your UET engineering admission aggregate. Matric 25% + FSc 45% + ECAT 30%.' },
+      { href: '/nust-calculator', icon: '🎓', name: 'NUST Aggregate Calculator', desc: "Calculate your NUST admission aggregate for Pakistan's most prestigious university." },
     ]
   },
   {
@@ -67,9 +68,9 @@ export default function Home() {
     <Layout>
       <Head>
         <title>ScholarTools — Free Online Tools for Students</title>
-        <meta name="description" content="Free online tools for students: word counter, GPA calculator, MDCAT calculator, ECAT calculator, attendance tracker, BMI calculator and more. No signup needed." />
+        <meta name="description" content="Free online tools for students: word counter, GPA calculator, MDCAT calculator, NUST aggregate calculator, attendance tracker and more. No signup needed." />
         <meta property="og:title" content="ScholarTools — Free Online Tools for Students" />
-        <meta property="og:description" content="19+ free tools for students. Word counter, GPA calculator, MDCAT calculator, ECAT calculator, Pomodoro timer and more. All free, no signup." />
+        <meta property="og:description" content="20+ free tools for students. Word counter, GPA calculator, MDCAT, ECAT, NUST calculators, Pomodoro timer and more. All free, no signup." />
         <link rel="canonical" href="https://scholartools.co" />
       </Head>
 
