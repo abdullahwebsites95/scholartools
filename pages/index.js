@@ -42,6 +42,7 @@ const tools = [
       { href: '/ecat-calculator', icon: '⚙️', name: 'ECAT Aggregate Calculator', desc: 'Calculate your UET engineering admission aggregate. Matric 25% + FSc 45% + ECAT 30%.' },
       { href: '/nust-calculator', icon: '🎓', name: 'NUST Aggregate Calculator', desc: "Calculate your NUST admission aggregate for Pakistan's most prestigious university." },
       { href: '/fast-calculator', icon: '💻', name: 'FAST University Aggregate Calculator', desc: "Calculate your FAST-NU aggregate for CS, SE and engineering. Pakistan's top CS university." },
+      { href: '/nums-calculator', icon: '🏥', name: 'NUMS Aggregate Calculator', desc: 'Calculate your Army Medical College aggregate. FSc 50% + MDCAT 50% formula.' },
     ]
   },
   {
@@ -69,9 +70,9 @@ export default function Home() {
     <Layout>
       <Head>
         <title>ScholarTools — Free Online Tools for Students</title>
-        <meta name="description" content="Free online tools for students: word counter, GPA calculator, MDCAT, ECAT, NUST, FAST aggregate calculators, attendance tracker and more. No signup needed." />
+        <meta name="description" content="Free online tools for students: word counter, GPA calculator, MDCAT, ECAT, NUST, FAST, NUMS aggregate calculators, attendance tracker and more. No signup needed." />
         <meta property="og:title" content="ScholarTools — Free Online Tools for Students" />
-        <meta property="og:description" content="21+ free tools for students. GPA calculator, MDCAT, ECAT, NUST, FAST calculators, Pomodoro timer and more. All free, no signup." />
+        <meta property="og:description" content="22+ free tools for students. GPA calculator, MDCAT, ECAT, NUST, FAST, NUMS calculators, Pomodoro timer and more. All free, no signup." />
         <link rel="canonical" href="https://scholartools.co" />
       </Head>
 
