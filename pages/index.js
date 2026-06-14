@@ -43,6 +43,7 @@ const tools = [
       { href: '/nust-calculator', icon: '🎓', name: 'NUST Aggregate Calculator', desc: "Calculate your NUST admission aggregate for Pakistan's most prestigious university." },
       { href: '/fast-calculator', icon: '💻', name: 'FAST University Aggregate Calculator', desc: "Calculate your FAST-NU aggregate for CS, SE and engineering. Pakistan's top CS university." },
       { href: '/nums-calculator', icon: '🏥', name: 'NUMS Aggregate Calculator', desc: 'Calculate your Army Medical College aggregate. FSc 50% + MDCAT 50% formula.' },
+      { href: '/fsc-grade-converter', icon: '📊', name: 'FSc & Matric Grade Converter', desc: 'Convert your FSc or Matric marks to percentage and official board letter grade A-1 to E.' },
     ]
   },
   {
@@ -59,6 +60,7 @@ const tools = [
     items: [
       { href: '/emi-calculator', icon: '💳', name: 'Loan EMI Calculator', desc: 'Calculate monthly loan installments, total interest, and full repayment schedule.' },
       { href: '/student-rent-calculator', icon: '🏠', name: 'Student Rent Calculator UK', desc: 'Find out if you can afford student rent in the UK. Halls vs private renting decision tool.' },
+      { href: '/fbr-income-tax-calculator', icon: '🧾', name: 'FBR Income Tax Calculator', desc: 'Calculate your Pakistan income tax for 2025–26. Monthly deduction and take-home salary.' },
     ]
   },
 ]
@@ -70,9 +72,9 @@ export default function Home() {
     <Layout>
       <Head>
         <title>ScholarTools — Free Online Tools for Students</title>
-        <meta name="description" content="Free online tools for students: word counter, GPA calculator, MDCAT, ECAT, NUST, FAST, NUMS aggregate calculators, attendance tracker and more. No signup needed." />
+        <meta name="description" content="Free online tools for students: word counter, GPA calculator, MDCAT, ECAT, NUST, FAST, NUMS calculators, FBR tax calculator and more. No signup needed." />
         <meta property="og:title" content="ScholarTools — Free Online Tools for Students" />
-        <meta property="og:description" content="22+ free tools for students. GPA calculator, MDCAT, ECAT, NUST, FAST, NUMS calculators, Pomodoro timer and more. All free, no signup." />
+        <meta property="og:description" content="24+ free tools for students. GPA calculator, MDCAT, ECAT, NUST, FAST, NUMS, FBR tax calculator and more. All free, no signup." />
         <link rel="canonical" href="https://scholartools.co" />
       </Head>
 
