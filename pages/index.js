@@ -35,6 +35,13 @@ const tools = [
     ]
   },
   {
+    category: '🌍 Global Student Tools',
+    accent: '#7C3AED',
+    items: [
+      { href: '/international-student-work-hours-calculator', icon: '🌍', name: 'International Student Work Hours', desc: 'Check how many hours you can work on your student visa. Covers UK, Australia, Canada, USA and Ireland.' },
+    ]
+  },
+  {
     category: '🇵🇰 Pakistan University Admissions',
     accent: '#16A34A',
     items: [
@@ -72,9 +79,9 @@ export default function Home() {
     <Layout>
       <Head>
         <title>ScholarTools — Free Online Tools for Students</title>
-        <meta name="description" content="Free online tools for students: word counter, GPA calculator, MDCAT, ECAT, NUST, FAST, NUMS calculators, FBR tax calculator and more. No signup needed." />
+        <meta name="description" content="Free online tools for students: GPA calculator, MDCAT, ECAT, NUST, FAST aggregates, international student work hours calculator, FBR tax calculator and more." />
         <meta property="og:title" content="ScholarTools — Free Online Tools for Students" />
-        <meta property="og:description" content="24+ free tools for students. GPA calculator, MDCAT, ECAT, NUST, FAST, NUMS, FBR tax calculator and more. All free, no signup." />
+        <meta property="og:description" content="25+ free tools for students. GPA calculator, MDCAT, ECAT, NUST, FAST, international student work hours, FBR tax and more. All free, no signup." />
         <link rel="canonical" href="https://scholartools.co" />
       </Head>
 
