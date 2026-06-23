@@ -40,6 +40,7 @@ const tools = [
     items: [
       { href: '/international-student-work-hours-calculator', icon: '🌍', name: 'International Student Work Hours', desc: 'Check how many hours you can work on your student visa. Covers UK, Australia, Canada, USA and Ireland.' },
       { href: '/international-gpa-converter', icon: '🌐', name: 'International GPA Converter', desc: 'Convert Pakistani, UK, Indian, German or Australian grades to the US 4.0 GPA scale instantly.' },
+      { href: '/exam-time-calculator', icon: '⏰', name: 'Exam Time Calculator', desc: 'Allocate time per section and question in any exam. Works for MCQ and essay papers.' },
     ]
   },
   {
@@ -80,9 +81,9 @@ export default function Home() {
     <Layout>
       <Head>
         <title>ScholarTools — Free Online Tools for Students</title>
-        <meta name="description" content="Free online tools for students: GPA calculator, MDCAT, ECAT, NUST, FAST aggregates, international GPA converter, work hours calculator and more." />
+        <meta name="description" content="Free online tools for students: GPA calculator, MDCAT, ECAT, NUST, FAST aggregates, exam time calculator, international GPA converter and more. No signup needed." />
         <meta property="og:title" content="ScholarTools — Free Online Tools for Students" />
-        <meta property="og:description" content="26+ free tools for students. GPA calculator, MDCAT, ECAT, NUST, FAST, international GPA converter, FBR tax and more. All free, no signup." />
+        <meta property="og:description" content="27+ free tools for students. GPA calculator, MDCAT, ECAT, NUST, FAST, exam time calculator, international GPA converter and more. All free, no signup." />
         <link rel="canonical" href="https://scholartools.co" />
       </Head>
 
