@@ -56,8 +56,16 @@ const tools = [
     ]
   },
   {
-    category: 'Health & Everyday',
+    category: '🇬🇧 UK Tools',
     accent: '#DC2626',
+    items: [
+      { href: '/uk-degree-classification-calculator', icon: '🎓', name: 'UK Degree Classification Calculator', desc: 'Find your degree classification — First, 2:1, 2:2 or Third — using overall or module-weighted average.' },
+      { href: '/student-rent-calculator', icon: '🏠', name: 'Student Rent Calculator UK', desc: 'Find out if you can afford student rent in the UK. Halls vs private renting decision tool.' },
+    ]
+  },
+  {
+    category: 'Health & Everyday',
+    accent: '#0EA5E9',
     items: [
       { href: '/bmi-calculator', icon: '⚖️', name: 'BMI Calculator', desc: 'Calculate your Body Mass Index and find your healthy weight range instantly.' },
       { href: '/tip-calculator', icon: '💰', name: 'Tip Calculator', desc: 'Calculate tip and split bills evenly among friends. Instant results as you type.' },
@@ -68,7 +76,6 @@ const tools = [
     accent: '#0D9488',
     items: [
       { href: '/emi-calculator', icon: '💳', name: 'Loan EMI Calculator', desc: 'Calculate monthly loan installments, total interest, and full repayment schedule.' },
-      { href: '/student-rent-calculator', icon: '🏠', name: 'Student Rent Calculator UK', desc: 'Find out if you can afford student rent in the UK. Halls vs private renting decision tool.' },
       { href: '/fbr-income-tax-calculator', icon: '🧾', name: 'FBR Income Tax Calculator', desc: 'Calculate your Pakistan income tax for 2025–26. Monthly deduction and take-home salary.' },
     ]
   },
@@ -81,9 +88,9 @@ export default function Home() {
     <Layout>
       <Head>
         <title>ScholarTools — Free Online Tools for Students</title>
-        <meta name="description" content="Free online tools for students: GPA calculator, MDCAT, ECAT, NUST, FAST aggregates, exam time calculator, international GPA converter and more. No signup needed." />
+        <meta name="description" content="Free online tools for students: GPA calculator, MDCAT, ECAT, NUST, FAST aggregates, UK degree classification, attendance tracker and more. No signup needed." />
         <meta property="og:title" content="ScholarTools — Free Online Tools for Students" />
-        <meta property="og:description" content="27+ free tools for students. GPA calculator, MDCAT, ECAT, NUST, FAST, exam time calculator, international GPA converter and more. All free, no signup." />
+        <meta property="og:description" content="28+ free tools for students. GPA calculator, MDCAT, ECAT, NUST, FAST, UK degree classification, FBR tax and more. All free, no signup." />
         <link rel="canonical" href="https://scholartools.co" />
       </Head>
 
