@@ -20,9 +20,9 @@ const QUAL_TYPES = {
     label: 'AS-Level',
     icon: '📗',
     grades: [
-      { grade: 'A', points: 28 },
-      { grade: 'B', points: 20 },
-      { grade: 'C', points: 16 },
+      { grade: 'A', points: 20 },
+      { grade: 'B', points: 16 },
+      { grade: 'C', points: 12 },
       { grade: 'D', points: 10 },
       { grade: 'E', points: 6 },
     ]
