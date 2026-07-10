@@ -19,7 +19,14 @@ const UMS_BOUNDARIES = [
 const GRADE_HIERARCHY = ['A*', 'A', 'B', 'C', 'D', 'E', 'U']
 
 function getUMSGrade(pct) {
-  return UMS_BOUNDARIES.find(g => pct >= g.min && pct <= g.max) || UMS_BOUNDARIES[UMS_BOUNDARIES.length - 1]
+  // Cascading check from highest to lowest — no gaps for decimal percentages
+  if (pct >= 90) return UMS_BOUNDARIES[0]  // A*
+  if (pct >= 80) return UMS_BOUNDARIES[1]  // A
+  if (pct >= 70) return UMS_BOUNDARIES[2]  // B
+  if (pct >= 60) return UMS_BOUNDARIES[3]  // C
+  if (pct >= 50) return UMS_BOUNDARIES[4]  // D
+  if (pct >= 40) return UMS_BOUNDARIES[5]  // E
+  return UMS_BOUNDARIES[6]                  // U
 }
 
 function meetsGrade(achieved, required) {
