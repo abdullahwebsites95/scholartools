@@ -41,19 +41,24 @@ const FOOTER_TOOLS = [
     ]
   },
   {
-    category: 'Global & Finance',
+    category: '🇬🇧 UK Tools',
+    links: [
+      { href: '/uk-degree-classification-calculator', label: 'UK Degree Classification' },
+      { href: '/ucas-points-calculator', label: 'UCAS Points Calculator' },
+      { href: '/btec-ucas-points-calculator', label: 'BTEC UCAS Points' },
+      { href: '/a-level-grade-calculator', label: 'A-Level Grade Calculator' },
+      { href: '/uk-student-loan-calculator', label: 'Student Loan Repayment Calculator' },
+      { href: '/student-rent-calculator', label: 'Student Rent Calculator UK' },
+    ]
+  },
+  {
+    category: 'Global & Everyday',
     links: [
       { href: '/international-student-work-hours-calculator', label: 'Student Work Hours' },
       { href: '/international-gpa-converter', label: 'International GPA Converter' },
       { href: '/exam-time-calculator', label: 'Exam Time Calculator' },
-      { href: '/student-rent-calculator', label: 'Student Rent Calculator UK' },
       { href: '/fbr-income-tax-calculator', label: 'FBR Income Tax Calculator' },
       { href: '/emi-calculator', label: 'Loan EMI Calculator' },
-    ]
-  },
-  {
-    category: 'Health & Everyday',
-    links: [
       { href: '/bmi-calculator', label: 'BMI Calculator' },
       { href: '/tip-calculator', label: 'Tip Calculator' },
     ]
@@ -64,7 +69,6 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="container">
-        {/* Tool links grid */}
         <div style={{
           display: 'grid',
           gridTemplateColumns: 'repeat(auto-fill, minmax(180px, 1fr))',
@@ -105,7 +109,6 @@ export default function Footer() {
           ))}
         </div>
 
-        {/* Bottom bar */}
         <div style={{
           display: 'flex',
           justifyContent: 'space-between',
