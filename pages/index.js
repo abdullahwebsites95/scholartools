@@ -64,6 +64,7 @@ const tools = [
       { href: '/btec-ucas-points-calculator', icon: '📗', name: 'BTEC UCAS Points Calculator', desc: 'Convert your BTEC grades to UCAS tariff points. Mix with A-Levels for combined totals.' },
       { href: '/a-level-grade-calculator', icon: '📊', name: 'A-Level Grade Calculator', desc: 'Convert UMS score to grade, or check if your results meet your university offer.' },
       { href: '/uk-student-loan-calculator', icon: '💷', name: 'UK Student Loan Repayment Calculator', desc: 'Calculate your monthly repayment and find out if your loan will be written off. Plans 1, 2, 4 & 5.' },
+      { href: '/scottish-highers-ucas-calculator', icon: '🏴', name: 'Scottish Highers UCAS Points Calculator', desc: 'Convert Scottish Highers, Advanced Highers and National 5 grades to UCAS tariff points.' },
       { href: '/student-rent-calculator', icon: '🏠', name: 'Student Rent Calculator UK', desc: 'Find out if you can afford student rent in the UK. Halls vs private renting decision tool.' },
     ]
   },
@@ -92,9 +93,9 @@ export default function Home() {
     <Layout>
       <Head>
         <title>ScholarTools — Free Online Tools for Students</title>
-        <meta name="description" content="Free online tools for students: GPA calculator, MDCAT, ECAT, NUST, FAST aggregates, UCAS points, UK degree classification, student loan calculator and more. No signup needed." />
+        <meta name="description" content="Free online tools for students: GPA calculator, MDCAT, ECAT, NUST, FAST aggregates, UCAS points, Scottish Highers, UK degree classification and more. No signup needed." />
         <meta property="og:title" content="ScholarTools — Free Online Tools for Students" />
-        <meta property="og:description" content="32+ free tools for students. GPA calculator, MDCAT, ECAT, NUST, FAST, UCAS points, UK student loan calculator, FBR tax and more. All free, no signup." />
+        <meta property="og:description" content="33+ free tools for students. GPA calculator, MDCAT, ECAT, NUST, FAST, UCAS points, Scottish Highers, UK student loan calculator and more. All free, no signup." />
         <link rel="canonical" href="https://scholartools.co" />
       </Head>
 
