@@ -1,0 +1,106 @@
+# ScholarTools Tool Build Status
+
+This file is the persistent queue state. Claude must update it only after verification.
+
+Roadmap version: 2026-07-16 | New tools planned: 100 | Existing tools excluded: 33
+
+- [ ] 001 — Weighted Grade Calculator — Not Started
+- [ ] 002 — Student Budget Calculator — Not Started
+- [ ] 003 — Dissertation Word Count Calculator — Not Started
+- [ ] 004 — Essay Word Count Calculator — Not Started
+- [ ] 005 — Advanced Course Grade Scenario Calculator — Not Started
+- [ ] 006 — Salary and Hourly Pay Converter — Not Started
+- [ ] 007 — Freelance Rate Calculator — Not Started
+- [ ] 008 — Contractor vs Employee Pay Calculator — Not Started
+- [ ] 009 — Job Offer Comparison Calculator — Not Started
+- [ ] 010 — Profit Margin and Markup Calculator — Not Started
+- [ ] 011 — Break-Even Point Calculator — Not Started
+- [ ] 012 — Product Pricing Calculator — Not Started
+- [ ] 013 — Freelance Project Profit Calculator — Not Started
+- [ ] 014 — Credit Card Payoff Calculator — Not Started
+- [ ] 015 — Savings Goal Calculator — Not Started
+- [ ] 016 — UK Take-Home Pay Calculator — Not Started
+- [ ] 017 — UK Holiday Entitlement Calculator — Not Started
+- [ ] 018 — Pakistan Pension and Commutation Calculator — Not Started
+- [ ] 019 — Pakistan Zakat Calculator — Not Started
+- [ ] 020 — UAE Gratuity Calculator — Not Started
+- [ ] 021 — Saudi End-of-Service Calculator — Not Started
+- [ ] 022 — Kuwait Indemnity Calculator — Not Started
+- [ ] 023 — Canada Mortgage Stress Test and GDS/TDS Calculator — Not Started
+- [ ] 024 — Australia Superannuation Contribution Calculator — Not Started
+- [ ] 025 — India Gratuity Calculator — Not Started
+- [ ] 026 — College Cost Calculator — Not Started
+- [ ] 027 — Education ROI Calculator — Not Started
+- [ ] 028 — Degree Progress and Graduation Calculator — Not Started
+- [ ] 029 — Exam Study Planner Calculator — Not Started
+- [ ] 030 — Mean Median Mode and Range Calculator — Not Started
+- [ ] 031 — Standard Deviation and Variance Calculator — Not Started
+- [ ] 032 — Sample Size Calculator — Not Started
+- [ ] 033 — Confidence Interval Calculator — Not Started
+- [ ] 034 — Z-Score Calculator — Not Started
+- [ ] 035 — Probability Calculator — Not Started
+- [ ] 036 — Permutation and Combination Calculator — Not Started
+- [ ] 037 — Fraction Calculator — Not Started
+- [ ] 038 — Ratio and Proportion Calculator — Not Started
+- [ ] 039 — Scientific Notation Converter — Not Started
+- [ ] 040 — Significant Figures Calculator — Not Started
+- [ ] 041 — Quadratic Equation Calculator — Not Started
+- [ ] 042 — Linear Equation and Slope Calculator — Not Started
+- [ ] 043 — Data Storage and Transfer Time Calculator — Not Started
+- [ ] 044 — Pay Raise Calculator — Not Started
+- [ ] 045 — Overtime Pay Calculator — Not Started
+- [ ] 046 — Sales Commission Calculator — Not Started
+- [ ] 047 — PTO Accrual Calculator — Not Started
+- [ ] 048 — Notice Period End Date Calculator — Not Started
+- [ ] 049 — Work Experience Duration Calculator — Not Started
+- [ ] 050 — ROAS and Advertising Metrics Calculator — Not Started
+- [ ] 051 — Customer Acquisition Cost Calculator — Not Started
+- [ ] 052 — Customer Lifetime Value Calculator — Not Started
+- [ ] 053 — Conversion Rate Calculator — Not Started
+- [ ] 054 — Average Order Value Calculator — Not Started
+- [ ] 055 — Inventory Turnover Calculator — Not Started
+- [ ] 056 — Reorder Point Calculator — Not Started
+- [ ] 057 — Economic Order Quantity Calculator — Not Started
+- [ ] 058 — Cash Runway Calculator — Not Started
+- [ ] 059 — Sales Growth and CAGR Calculator — Not Started
+- [ ] 060 — VAT and GST Calculator — Not Started
+- [ ] 061 — Compound Interest Calculator — Not Started
+- [ ] 062 — Simple Interest Calculator — Not Started
+- [ ] 063 — Emergency Fund Calculator — Not Started
+- [ ] 064 — Debt-to-Income Ratio Calculator — Not Started
+- [ ] 065 — Net Worth Calculator — Not Started
+- [ ] 066 — Discount and Sale Price Calculator — Not Started
+- [ ] 067 — Date Difference and Business Days Calculator — Not Started
+- [ ] 068 — Fuel Cost Calculator — Not Started
+- [ ] 069 — Electricity Bill Estimator — Not Started
+- [ ] 070 — BMR and TDEE Calculator — Not Started
+- [ ] 071 — US Federal Income Tax Calculator 2026 — Not Started
+- [ ] 072 — US Paycheck Calculator — Not Started
+- [ ] 073 — US Federal Student Loan Repayment Calculator — Not Started
+- [ ] 074 — US FLSA Overtime Calculator — Not Started
+- [ ] 075 — US 401(k) Contribution Calculator — Not Started
+- [ ] 076 — US 529 College Savings Calculator — Not Started
+- [ ] 077 — UK Self-Assessment Tax Calculator — Not Started
+- [ ] 078 — UK VAT Calculator — Not Started
+- [ ] 079 — Canada Take-Home Pay Calculator — Not Started
+- [ ] 080 — Canada RRSP Tax Savings Calculator — Not Started
+- [ ] 081 — Canada TFSA Growth Calculator — Not Started
+- [ ] 082 — Australia Take-Home Pay Calculator — Not Started
+- [ ] 083 — Australia HELP Repayment Calculator — Not Started
+- [ ] 084 — Australia GST Calculator — Not Started
+- [ ] 085 — Qatar Gratuity Calculator — Not Started
+- [ ] 086 — Oman Gratuity Calculator — Not Started
+- [ ] 087 — Bahrain End-of-Service Calculator — Not Started
+- [ ] 088 — UAE VAT Calculator — Not Started
+- [ ] 089 — Saudi VAT Calculator — Not Started
+- [ ] 090 — India Income Tax Old vs New Regime Calculator — Not Started
+- [ ] 091 — India SIP Calculator — Not Started
+- [ ] 092 — India HRA Exemption Calculator — Not Started
+- [ ] 093 — India EPF Calculator — Not Started
+- [ ] 094 — Pakistan Provident Fund Calculator — Not Started
+- [ ] 095 — Pakistan Salary Increment Calculator — Not Started
+- [ ] 096 — Pakistan Sales Tax Calculator — Not Started
+- [ ] 097 — Net Present Value Calculator — Not Started
+- [ ] 098 — Internal Rate of Return Calculator — Not Started
+- [ ] 099 — Depreciation Calculator — Not Started
+- [ ] 100 — Mortgage Affordability Calculator — Not Started
