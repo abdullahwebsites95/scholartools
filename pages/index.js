@@ -27,6 +27,7 @@ const tools = [
     category: 'Grades & Calculations',
     accent: '#D97706',
     items: [
+      { href: '/weighted-grade-calculator', icon: '⚖️', name: 'Weighted Grade Calculator', desc: 'Calculate your weighted grade average from multiple assessments. Supports percentage and points modes.' },
       { href: '/gpa-calculator', icon: '🎓', name: 'GPA Calculator', desc: 'Calculate your GPA on the 4.0 scale or CGPA with subject credit hours.' },
       { href: '/grade-calculator', icon: '📊', name: 'Grade Needed Calculator', desc: 'Find out exactly what score you need on your final exam to pass the course.' },
       { href: '/percentage-calculator', icon: '🔢', name: 'Percentage Calculator', desc: 'Calculate percentages, percentage change, and what percent X is of Y.' },
@@ -93,9 +94,9 @@ export default function Home() {
     <Layout>
       <Head>
         <title>ScholarTools — Free Online Tools for Students</title>
-        <meta name="description" content="Free online tools for students: GPA calculator, MDCAT, ECAT, NUST, FAST aggregates, UCAS points, Scottish Highers, UK degree classification and more. No signup needed." />
+        <meta name="description" content="Free online tools for students: weighted grade calculator, GPA calculator, MDCAT, ECAT, NUST, FAST aggregates, UCAS points, UK degree classification and more. No signup needed." />
         <meta property="og:title" content="ScholarTools — Free Online Tools for Students" />
-        <meta property="og:description" content="33+ free tools for students. GPA calculator, MDCAT, ECAT, NUST, FAST, UCAS points, Scottish Highers, UK student loan calculator and more. All free, no signup." />
+        <meta property="og:description" content="34+ free tools for students. Weighted grade calculator, GPA calculator, MDCAT, ECAT, NUST, FAST, UCAS points, UK tools and more. All free, no signup." />
         <link rel="canonical" href="https://scholartools.co" />
       </Head>
 
