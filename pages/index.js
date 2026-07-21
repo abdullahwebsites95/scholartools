@@ -39,6 +39,7 @@ const tools = [
     category: '🌍 Global Student Tools',
     accent: '#7C3AED',
     items: [
+      { href: '/student-budget-calculator', icon: '💰', name: 'Student Budget Calculator', desc: 'Calculate your monthly surplus or deficit from income and expenses in any frequency — weekly, monthly, per term or yearly.' },
       { href: '/international-student-work-hours-calculator', icon: '🌍', name: 'International Student Work Hours', desc: 'Check how many hours you can work on your student visa. Covers UK, Australia, Canada, USA and Ireland.' },
       { href: '/international-gpa-converter', icon: '🌐', name: 'International GPA Converter', desc: 'Convert Pakistani, UK, Indian, German or Australian grades to the US 4.0 GPA scale instantly.' },
       { href: '/exam-time-calculator', icon: '⏰', name: 'Exam Time Calculator', desc: 'Allocate time per section and question in any exam. Works for MCQ and essay papers.' },
@@ -94,9 +95,9 @@ export default function Home() {
     <Layout>
       <Head>
         <title>ScholarTools — Free Online Tools for Students</title>
-        <meta name="description" content="Free online tools for students: weighted grade calculator, GPA calculator, MDCAT, ECAT, NUST, FAST aggregates, UCAS points, UK degree classification and more. No signup needed." />
+        <meta name="description" content="Free online tools for students: weighted grade calculator, student budget calculator, GPA calculator, MDCAT, ECAT, NUST, UCAS points, UK degree classification and more. No signup needed." />
         <meta property="og:title" content="ScholarTools — Free Online Tools for Students" />
-        <meta property="og:description" content="34+ free tools for students. Weighted grade calculator, GPA calculator, MDCAT, ECAT, NUST, FAST, UCAS points, UK tools and more. All free, no signup." />
+        <meta property="og:description" content="35+ free tools for students. Weighted grade calculator, student budget calculator, GPA, MDCAT, ECAT, NUST, FAST, UCAS points and more. All free, no signup." />
         <link rel="canonical" href="https://scholartools.co" />
       </Head>
 
