@@ -8,6 +8,7 @@ const tools = [
     accent: '#2563EB',
     items: [
       { href: '/word-counter', icon: '📝', name: 'Word Counter', desc: 'Count words, characters, sentences, reading time and pages instantly.' },
+      { href: '/dissertation-word-count-calculator', icon: '📖', name: 'Dissertation Word Count Calculator', desc: 'Plan your dissertation word count by chapter with a suggested breakdown and tolerance range.' },
       { href: '/reading-time', icon: '📖', name: 'Reading Time Estimator', desc: 'Paste any text and find out exactly how long it takes to read aloud or silently.' },
       { href: '/text-case-converter', icon: '🔤', name: 'Text Case Converter', desc: 'Convert text to UPPERCASE, lowercase, Title Case, camelCase and more.' },
       { href: '/citation-generator', icon: '📚', name: 'Citation Generator', desc: 'Generate perfect APA and MLA citations for books, websites and journals. Free.' },
@@ -95,9 +96,9 @@ export default function Home() {
     <Layout>
       <Head>
         <title>ScholarTools — Free Online Tools for Students</title>
-        <meta name="description" content="Free online tools for students: weighted grade calculator, student budget calculator, GPA calculator, MDCAT, ECAT, NUST, UCAS points, UK degree classification and more. No signup needed." />
+        <meta name="description" content="Free online tools for students: dissertation word count calculator, weighted grade calculator, student budget calculator, GPA, MDCAT, ECAT, NUST and more. No signup needed." />
         <meta property="og:title" content="ScholarTools — Free Online Tools for Students" />
-        <meta property="og:description" content="35+ free tools for students. Weighted grade calculator, student budget calculator, GPA, MDCAT, ECAT, NUST, FAST, UCAS points and more. All free, no signup." />
+        <meta property="og:description" content="36+ free tools for students. Dissertation planner, weighted grade calculator, student budget, GPA, MDCAT, ECAT, NUST, UCAS points and more. All free, no signup." />
         <link rel="canonical" href="https://scholartools.co" />
       </Head>
 
