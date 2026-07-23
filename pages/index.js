@@ -8,6 +8,7 @@ const tools = [
     accent: '#2563EB',
     items: [
       { href: '/word-counter', icon: '📝', name: 'Word Counter', desc: 'Count words, characters, sentences, reading time and pages instantly.' },
+      { href: '/essay-word-count-calculator', icon: '✍️', name: 'Essay Word Count Calculator', desc: 'Plan your essay word count by section — introduction, each body paragraph, and conclusion.' },
       { href: '/dissertation-word-count-calculator', icon: '📖', name: 'Dissertation Word Count Calculator', desc: 'Plan your dissertation word count by chapter with a suggested breakdown and tolerance range.' },
       { href: '/reading-time', icon: '📖', name: 'Reading Time Estimator', desc: 'Paste any text and find out exactly how long it takes to read aloud or silently.' },
       { href: '/text-case-converter', icon: '🔤', name: 'Text Case Converter', desc: 'Convert text to UPPERCASE, lowercase, Title Case, camelCase and more.' },
@@ -96,9 +97,9 @@ export default function Home() {
     <Layout>
       <Head>
         <title>ScholarTools — Free Online Tools for Students</title>
-        <meta name="description" content="Free online tools for students: dissertation word count calculator, weighted grade calculator, student budget calculator, GPA, MDCAT, ECAT, NUST and more. No signup needed." />
+        <meta name="description" content="Free online tools for students: essay word count calculator, dissertation planner, weighted grade calculator, student budget calculator, GPA, MDCAT and more. No signup needed." />
         <meta property="og:title" content="ScholarTools — Free Online Tools for Students" />
-        <meta property="og:description" content="36+ free tools for students. Dissertation planner, weighted grade calculator, student budget, GPA, MDCAT, ECAT, NUST, UCAS points and more. All free, no signup." />
+        <meta property="og:description" content="37+ free tools for students. Essay and dissertation planners, weighted grade calculator, student budget, GPA, MDCAT, ECAT, NUST and more. All free, no signup." />
         <link rel="canonical" href="https://scholartools.co" />
       </Head>
 
