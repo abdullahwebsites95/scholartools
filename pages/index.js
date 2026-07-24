@@ -29,6 +29,7 @@ const tools = [
     category: 'Grades & Calculations',
     accent: '#D97706',
     items: [
+      { href: '/advanced-course-grade-scenario-calculator', icon: '🎯', name: 'Advanced Course Grade Scenario Calculator', desc: 'Compare multiple what-if grade scenarios side by side using completed and remaining assessments.' },
       { href: '/weighted-grade-calculator', icon: '⚖️', name: 'Weighted Grade Calculator', desc: 'Calculate your weighted grade average from multiple assessments. Supports percentage and points modes.' },
       { href: '/gpa-calculator', icon: '🎓', name: 'GPA Calculator', desc: 'Calculate your GPA on the 4.0 scale or CGPA with subject credit hours.' },
       { href: '/grade-calculator', icon: '📊', name: 'Grade Needed Calculator', desc: 'Find out exactly what score you need on your final exam to pass the course.' },
@@ -97,9 +98,9 @@ export default function Home() {
     <Layout>
       <Head>
         <title>ScholarTools — Free Online Tools for Students</title>
-        <meta name="description" content="Free online tools for students: essay word count calculator, dissertation planner, weighted grade calculator, student budget calculator, GPA, MDCAT and more. No signup needed." />
+        <meta name="description" content="Free online tools for students: grade scenario calculator, essay and dissertation planners, weighted grade calculator, student budget calculator, GPA, MDCAT and more. No signup needed." />
         <meta property="og:title" content="ScholarTools — Free Online Tools for Students" />
-        <meta property="og:description" content="37+ free tools for students. Essay and dissertation planners, weighted grade calculator, student budget, GPA, MDCAT, ECAT, NUST and more. All free, no signup." />
+        <meta property="og:description" content="38+ free tools for students. Grade scenario comparison, essay/dissertation planners, weighted grade calculator, GPA, MDCAT, ECAT, NUST and more. All free, no signup." />
         <link rel="canonical" href="https://scholartools.co" />
       </Head>
 
